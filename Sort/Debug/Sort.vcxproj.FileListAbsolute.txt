@@ -1,0 +1,4 @@
+C:\Users\msi\Desktop\Algorithm\Sort\Sort\Debug\Sort.exe
+C:\Users\msi\Desktop\Algorithm\Sort\Sort\Debug\Sort.pdb
+C:\Users\msi\Desktop\Algorithm\Sort\Debug\Sort.exe
+C:\Users\msi\Desktop\Algorithm\Sort\Debug\Sort.pdb
