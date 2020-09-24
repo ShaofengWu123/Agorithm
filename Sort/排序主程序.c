@@ -16,7 +16,8 @@ int main(){
 	print_array(a,MAX_LEN);
 	//Bubble_sort(a, MAX_LEN);
 	//Selection_sort(a, MAX_LEN);
-	Insert_sort(a, MAX_LEN);
+	//Insert_sort(a, MAX_LEN);
+	Shellsort(a, MAX_LEN);
 	print_array(a, MAX_LEN);
 	return 0;
 }

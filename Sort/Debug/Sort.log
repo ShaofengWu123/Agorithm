@@ -1,7 +1,5 @@
-﻿  Arrayops.c
-  Bubblesort.c
-  Insertsort.c
-  Selectionsort.c
+﻿  Shellsort.c
+C:\Users\msi\Desktop\Algorithm\Sort\Shellsort.c(7,8): warning C4013: “exc”未定义；假设外部返回 int
   排序主程序.c
 C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(11,18): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
   正在生成代码...
