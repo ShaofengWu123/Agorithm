@@ -41,5 +41,11 @@
     <ClCompile Include="Shellsort.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Sortcompare.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mergesort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
