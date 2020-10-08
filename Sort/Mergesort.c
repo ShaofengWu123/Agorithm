@@ -30,3 +30,14 @@ void Merge_sort_tb(int a[], int n) {
 	Merge_sort(a,temp,0, n-1);
 	free(temp);
 }
+
+void Merge_sort_bt(int a[], int n) {
+	int* temp = (int*)malloc(n * sizeof(int));
+	int max = 0;
+	for (int i=1; i < n; i += i) {
+		for (int j=0; j < n; j += 2*i) {
+			max = (j + 2*i - 1) > (n - 1) ? (n - 1) : (j + 2*i - 1);
+			Merge(a, temp, j, j+i-1, max);
+		}
+	}
+}

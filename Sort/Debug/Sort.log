@@ -1,7 +1,7 @@
 ﻿  排序主程序.c
 C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(11,18): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(17,25): warning C4047: “函数”:“void *(__cdecl *)(int *,int)”与“void (__cdecl *)(int *,int)”的间接级别不同
+C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(17,27): warning C4047: “函数”:“void *(__cdecl *)(int *,int)”与“void (__cdecl *)(int *,int)”的间接级别不同
 C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(17,14): warning C4022: “Sortcompare”: 指针与实参 1 不匹配
-C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(17,36): warning C4047: “函数”:“void *(__cdecl *)(int *,int)”与“void (__cdecl *)(int *,int)”的间接级别不同
-C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(17,26): warning C4022: “Sortcompare”: 指针与实参 2 不匹配
+C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(17,38): warning C4047: “函数”:“void *(__cdecl *)(int *,int)”与“void (__cdecl *)(int *,int)”的间接级别不同
+C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(17,28): warning C4022: “Sortcompare”: 指针与实参 2 不匹配
   Sort.vcxproj -> C:\Users\msi\Desktop\Algorithm\Sort\Debug\Sort.exe
