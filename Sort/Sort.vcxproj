@@ -147,6 +147,7 @@
     <ClCompile Include="Bubblesort.c" />
     <ClCompile Include="Insertsort.c" />
     <ClCompile Include="Mergesort.c" />
+    <ClCompile Include="Quicksort.c" />
     <ClCompile Include="Selectionsort.c" />
     <ClCompile Include="Shellsort.c" />
     <ClCompile Include="Sortcompare.c" />
