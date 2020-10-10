@@ -2,6 +2,8 @@
 
 #define Elemtype int
 
+
+
 void Sortcompare(void* ptr1(int a[], int n), void* ptr2(int a[], int n), int a[], int n);
 void Bubble_sort(int a[], int n);
 void Selection_sort(int a[], int n);
