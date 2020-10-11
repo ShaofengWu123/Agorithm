@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define MAX_LEN 1000000
+#define MAX_LEN 10000000
 
 
 int main(){

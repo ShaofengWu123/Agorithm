@@ -1,11 +1,7 @@
-﻿  排序主程序.c
-C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(11,18): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(20,24): warning C4047: “函数”:“void *(__cdecl *)(int *,int)”与“void (__cdecl *)(int *,int)”的间接级别不同
-C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(20,14): warning C4022: “Sortcompare”: 指针与实参 1 不匹配
-C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(20,38): warning C4047: “函数”:“void *(__cdecl *)(int *,int)”与“void (__cdecl *)(int *,int)”的间接级别不同
-C:\Users\msi\Desktop\Algorithm\Sort\排序主程序.c(20,25): warning C4022: “Sortcompare”: 指针与实参 2 不匹配
+﻿  Quicksort.c
+C:\Users\msi\Desktop\Algorithm\Sort\Quicksort.c(13,8): warning C4013: “printf”未定义；假设外部返回 int
   正在生成代码
-  2 of 14 functions (14.3%) were compiled, the rest were copied from previous compilation.
+  0 of 14 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
