@@ -18,6 +18,10 @@ void exc(Elemtype* a, Elemtype* b) {
 	*b = temp;
 }
 
+//比较两个元素
+
+
+
 //把索引i元素插到索引j处
 void insert(int a[], int i, int j) {
 	int temp = a[ i ];

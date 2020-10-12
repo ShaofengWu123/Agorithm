@@ -72,3 +72,27 @@ int partition(Elemtype a[],int min,int max) {
 	exc(&a[min], &a[j]);
 	return j;
 }
+
+//三向快速排序
+void Quick_sort_3way(Elemtype a[], int n) {
+	partitionandsort_3way(a,0,n-1);
+}
+
+
+void partitionandsort_3way(Elemtype a[], int min, int max) {
+	if (max <= min) { ; }
+	else
+	{
+		int j = min; int i = min + 1; int k = max;
+		int flag = 0;
+		Elemtype v = a[min];
+		while (i<=k) {
+			flag = a[i] > v ? 1 : (a[i]==v? 0:-1);
+			if (flag == 1) { exc(&a[i],&a[k--]); }
+			else if (flag == -1) { exc(&a[j++],a[i++]); }
+			else { i++; }
+		}
+		partitionandsort_3way(a,min,j-1);
+		partitionandsort_3way(a,i,max);
+	}
+}
