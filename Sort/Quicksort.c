@@ -89,7 +89,7 @@ void partitionandsort_3way(Elemtype a[], int min, int max) {
 		while (i<=k) {
 			flag = a[i] > v ? 1 : (a[i]==v? 0:-1);
 			if (flag == 1) { exc(&a[i],&a[k--]); }
-			else if (flag == -1) { exc(&a[j++],a[i++]); }
+			else if (flag == -1) { exc(&a[j++],&a[i++]); }
 			else { i++; }
 		}
 		partitionandsort_3way(a,min,j-1);

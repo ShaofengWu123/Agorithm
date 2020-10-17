@@ -1,8 +1,13 @@
-﻿  Quicksort.c
-C:\Users\msi\Desktop\Algorithm\Sort\Quicksort.c(13,8): warning C4013: “printf”未定义；假设外部返回 int
+﻿  Arrayops.c
+C:\Users\msi\Desktop\Algorithm\Sort\Arrayops.c(44,18): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Bubblesort.c
+  Insertsort.c
+  Mergesort.c
+  Selectionsort.c
+  Sortcompare.c
   正在生成代码
-  0 of 14 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
+  7 of 9 functions (77.8%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   Sort.vcxproj -> C:\Users\msi\Desktop\Algorithm\Sort\Release\Sort.exe
